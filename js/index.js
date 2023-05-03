@@ -110,7 +110,7 @@ for(var i = 0;i<N;i++){
     scene.add(fl);
 
 
-    var floorTex = new THREE.TextureLoader().load( "textures/grass.jpeg", function(){
+    var floorTex = new THREE.TextureLoader().load( "textures/ground.jpg", function(){
             renderer.render( scene, camera );
     });
 
@@ -131,7 +131,7 @@ for(var i = 0;i<N;i++){
 
 
 
-    var ceilTex = new THREE.TextureLoader().load( "textures/sky.jpeg", function(){
+    var ceilTex = new THREE.TextureLoader().load( "textures/ceiling.jpg", function(){
             renderer.render( scene, camera );
     });
 
