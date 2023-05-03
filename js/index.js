@@ -30,7 +30,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 document.getElementById("hello").appendChild( renderer.domElement );
 //document.body.appendChild( renderer.domElement );
 
-var N =9;
+var N =12;
 var L = 3; // side = 2*L
 var alpha = (2*Math.PI)/N;
 var R = 5+L / Math.tan(alpha/2);
